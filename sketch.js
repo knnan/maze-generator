@@ -1,4 +1,4 @@
-var w = 10;
+var w = 5;
 var cols;
 var rows;
 var grid = []
@@ -9,7 +9,7 @@ var stack2 = []
 var totalnotvisited = 0;
 function setup()
 {
-	createCanvas(600,600);
+	createCanvas(500,500);
 	cols  = floor(width/w);
 	rows  = floor(height/w);
 	for(var j = 0;j<rows;j++)
