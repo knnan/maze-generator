@@ -1,11 +1,11 @@
 var w = 20;
 var cols;
 var rows;
-var grid = []
+var grid = [];
 var current;
 var current2;
-var stack = []
-var stack2 = []
+var stack = [];
+var stack2 = [];
 var totalnotvisited = 0;
 function setup()
 {
